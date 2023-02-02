@@ -55,7 +55,6 @@ header{
     text-decoration: none;
     color: rgba(16, 25, 51, 1);
     margin: 15px;
-    padding: 10px;
     font-size: 20px;
     font-weight: 700;
     transition: all 0.5s ease 0s;
@@ -81,6 +80,7 @@ header{
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
+
 .nav-bar a button:hover{
     transition: all 0.5s ease 0s;
     background-color: rgba(36, 59, 122, 0.733);
