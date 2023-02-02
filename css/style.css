@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300&family=Unbounded:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    box-shadow:0px 14px 7px rgba(0, 0, 0, 0.25); 
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.title {
+    min-width: 500px;
+    margin-left: 20px;
+    font-weight: 1500;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(16, 25, 51, 1);
+}
+
+.frase{
+    margin-top: 50px;
+    width: 700px;
+}
+.nav-bar{
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: rgba(16, 25, 51, 1);
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.5s ease 0s;
+}
+
+.nav-bar a:hover{
+    transition: all 0.5s ease 0s;
+    color: rgba(36, 59, 122, 0.733);
+}
+
+.nav-bar a button{
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid rgba(16, 25, 51, 1);
+    color: rgba(16, 25, 51, 1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.nav-bar a button:hover{
+    transition: all 0.5s ease 0s;
+    background-color: rgba(36, 59, 122, 0.733);
+    color: #ffffff;
+    border: none;
+}
+
+
+@media (width<=1180px){
+
+
+.frase{
+    display: none;
+}
+
+}
+
+@media (width<=944px){
+    .nav-bar{
+        display: none;
+    }
+}
